@@ -1,0 +1,32 @@
+div {
+	margin: 0;
+	padding: 0;
+}
+.loading {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	border: 7px double #000000;
+	border-radius: 50%;
+}
+.circle {
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	border-radius: 50%;
+	position: relative;
+	left: 19px;
+	top: -8px;
+	transform-origin: 6px 34px;
+	-webkit-animation: loading 1s ease-in-out infinite;
+}
+ @-webkit-keyframes 'loading' {
+     0% {
+       -webkit-transform: rotate(0deg);
+     }
+     100% {
+       -webkit-transform: rotate(360deg);
+     }
+  }
