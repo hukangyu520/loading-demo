@@ -1,4 +1,4 @@
 loading-demo
 ============
 
-my first demo
+http://webkang.sinaapp.com/loading-demo/
