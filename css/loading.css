@@ -24,10 +24,10 @@ div {
     -webkit-transform-origin: 5px 31px;
     -moz-transform-origin: 5px 31px;
     -o-transform-origin: 5px 31px;
-    animation: loading 3s ease-in-out infinite;
-    -moz-animation: loading 3s ease-in-out infinite;
-    -o-animation: loading 3s ease-in-out infinite;
-    -webkit-animation: loading 3s ease-in-out infinite;
+    animation: loading 1s ease-in-out infinite;
+    -moz-animation: loading 1s ease-in-out infinite;
+    -o-animation: loading 1s ease-in-out infinite;
+    -webkit-animation: loading 1s ease-in-out infinite;
 }
 @-webkit-keyframes 'loading' {
     0% {
